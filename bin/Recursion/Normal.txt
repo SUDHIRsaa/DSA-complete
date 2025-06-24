@@ -1,0 +1,6 @@
+1]IDentify if you can break down problem into smaller problems
+2]Write the recursence relation if needed
+3] Draw the recusrive tree
+4]About the tree:
+    see the flow of functions, how they are getting in stacks
+    IDentify and focus on left tree calls and right tree calls

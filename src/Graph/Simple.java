@@ -6,7 +6,7 @@ public class Simple {
         int n = 5; // Number of nodes
         int m = 6; // Number of edges
 
-        // Sample edges (undirected)
+        
         int[][] edges = {
             {1, 2},
             {1, 3},

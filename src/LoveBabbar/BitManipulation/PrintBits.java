@@ -3,7 +3,7 @@ package LoveBabbar.BitManipulation;
 public class PrintBits {
     public static void main(String[] args) {
         
-        print(300);
+        printUsingToBinaryString(3);
     }
 
     // 1 
@@ -15,7 +15,7 @@ public class PrintBits {
 
     // 2
     public static void printUsingToBinaryString(int nums) {
-        System.out.println(Integer.toBinaryString(nums));
+        System.out.println( String.format("%8s", Integer.toBinaryString(nums)).replace(' ', '0'));
     }
 
 

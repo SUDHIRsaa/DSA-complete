@@ -10,12 +10,13 @@ public class NoOfSetBits {
         PrintBits.print(aa);
         
     }
+    // Brian Kernighan's Algorithm
     public static int Noofbits(int num){
         int count=0;
         
         while(num!=0){
             count++;
-            num=UnSetRightMostBit(num);
+            num=num & (num-1); // Unset the rightmost set bit
         }
 
         return count;

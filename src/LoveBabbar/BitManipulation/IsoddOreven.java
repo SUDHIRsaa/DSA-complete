@@ -8,6 +8,8 @@ public class IsoddOreven {
         else{
             System.out.println("even");
         }
+
+        
     }
     public static boolean isbit(int num,int bit) {
         int res= num & (1<<bit);
